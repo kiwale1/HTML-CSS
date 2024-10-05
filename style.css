@@ -1,0 +1,47 @@
+body{
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+    font-family:Orbitron;
+}
+
+h3{
+    color:#A5959F;
+}
+
+.btn{
+    padding: 5x;
+    color:#65585E;
+    border: none;
+    font-family: inherit;
+    font-weight: 800;
+    width:auto;
+    height:auto;
+    font-size: 20px;
+}
+
+@font-face{
+    src: url('Orbitron-VariableFont_wght.tff');
+    font-family:'orbitron',sans-serif;
+    
+}
+
+.cta{
+    border-bottom: 4px black;
+    background:#414456;
+    padding:8px;
+    border-radius:8px;
+    opacity:80%;
+}
+
+#logo{
+    width:200px;
+}
+
+#hero{
+    height: auto;
+    background-image: url('geo.webp');
+    background-size:cover;
+    padding:15px 0 100px 0px;
+}
